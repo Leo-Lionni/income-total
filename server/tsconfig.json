@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs", // 如果你的服务器端使用CommonJS模块格式
+      "outDir": ".", // 输出目录为当前目录（.）, 将会直接替换或覆盖同名.js文件
+      "rootDir": ".", // 源文件目录为当前目录（.）
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["server.ts"], // 包含并转换此特定文件
+    "exclude": ["node_modules"]
+  }
